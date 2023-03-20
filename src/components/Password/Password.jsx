@@ -40,7 +40,7 @@ const Password = ({onSave, onPrevious, passwordInfo}) => {
 
     return (
         <div className="container">
-            <p className="step">Крок 4</p>
+            <p className="step">Step 4</p>
             <form action="#">
                <label>
                 Password 

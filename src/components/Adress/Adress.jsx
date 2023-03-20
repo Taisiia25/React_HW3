@@ -50,7 +50,7 @@ const Adress = ({ onSave, onPrevious, adressInfo }) => {
     }
     return (
         <div className="container">
-            <p className="step">Крок 2</p>
+            <p className="step">Step 2</p>
             <form action="#">
                <label>
                 City 

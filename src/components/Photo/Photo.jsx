@@ -24,7 +24,7 @@ const Photo = ({ onSave, onPrevious, photoInfo }) => {
 
     return (
         <div className="container">
-        <p className="step">Крок 3</p>
+        <p className="step">Step 3</p>
                 <label className='upload' for="fileInput">
                     Upload Photo
                     <input className='inputPhoto' id="fileInput" type="file" name='photo' onChange={onChange}/>

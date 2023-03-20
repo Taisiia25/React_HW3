@@ -46,7 +46,7 @@ const Login = ({ onSave, userInfo }) => {
     }
     return (
         <div className="container">
-            <p className="step">Крок 1</p>
+            <p className="step">Step 1</p>
             <form action="#">
                <label>
                 Name 
