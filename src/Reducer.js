@@ -12,12 +12,8 @@ function reducer(state, action) {
         return { ...state, photo: action.payload };
       case 'SET_PASSWORD':
         return { ...state, password: action.payload };
-    //   case 'reset':
-    //     return { isRunning: false, time: 0 };
-    //   case 'tick':
-    //     return { ...state, time: state.time + 1 };
-    //   default:
-    //     throw new Error();
+      default:  
+        return state; 
     }
   }
 export default reducer;
